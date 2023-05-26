@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+    <fieldset>
+    <form action="print">
+        <table>
+            <tr>
+                <td>Name:
+                <input type="text" name="name" placeholder="name" required>
+            </td>
+            <tr>
+            <td>Total_Marks:
+                <input type="tel" name="total" pattern="{0-9}[10]">
+            </td>
+            <tr>
+                <td>Gender:
+                    <input type="radio" name="gender" value="male">Male<input type="radio" name="gender" value="female">Female<input type="radio" name="gender" value="other">Others
+                </td>
+            </tr>
+            <tr><td> <button type="submit">Submit</button> <button type="reset">Cancel</button>   </td></tr>
+          
+
+        </table>
+
+    </form>
+</fieldset>
+</body>
+</html>
